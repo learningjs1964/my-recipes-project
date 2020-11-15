@@ -1,0 +1,23 @@
+.card {
+  /* width: 530px;
+  min-width: 530px;
+  display: inline-flex;
+  box-sizing: content-box;*/
+  margin: 2%;
+}
+
+.image {
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.edit {
+  background-color: lightgray;
+  vertical-align: middle;
+}
+
+.edit > a {
+  font-size: 2rem;
+  padding: 9px 30px;
+}
